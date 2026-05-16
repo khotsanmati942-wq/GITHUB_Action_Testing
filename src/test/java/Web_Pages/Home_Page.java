@@ -21,25 +21,25 @@ public class Home_Page extends Base_Page {
     @FindBy(xpath = "//li[@id='menu-item-1226']//a[@class='menu-link'][normalize-space()='Home']")
     public WebElement Home_page_link;
 
-    public void Clickonaccountpagelink()  {
-       gl.genericwait();
+    public void Clickonaccountpagelink() {
+        gl.genericwait();
         Account_Page_Link.click();
     }
 
-    public void ClickonAddtocartfordenimbluejeans(){
+    public void ClickonAddtocartfordenimbluejeans() {
         gl.genericwait();
         Denim_Blue_Jeans_Add_to_cartbutton.click();
     }
 
-    public void Clickonviewcart(){
-       gl.elementClickable(View_cart);
+    public void Clickonviewcart() {
+        gl.elementClickable(View_cart);
         View_cart.click();
     }
 
-    public void Clickonhomepagelinke(){
+    public void Clickonhomepagelinke() {
         gl.genericwait();
         Home_page_link.click();
     }
 
+    String name = "hello world";
 }
-
