@@ -41,5 +41,4 @@ public class Home_Page extends Base_Page {
         Home_page_link.click();
     }
 
-    //String name = "hello world";
 }
